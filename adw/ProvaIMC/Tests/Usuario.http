@@ -1,0 +1,12 @@
+
+### Listar Usuarios ###
+GET https://localhost:7268/usuario/listar
+
+### Criar Usuario ###
+POST https://localhost:7069/usuario/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": "Ygor",
+    "Nascimento":"20-11-2002"
+}
